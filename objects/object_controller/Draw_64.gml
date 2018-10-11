@@ -1,9 +1,9 @@
 /// @DnDAction : YoYo Games.Drawing.Set_Color
 /// @DnDVersion : 1
 /// @DnDHash : 0037DF32
-/// @DnDArgument : "color" "$FFFF0F07"
-draw_set_colour($FFFF0F07 & $ffffff);
-draw_set_alpha(($FFFF0F07 >> 24) / $ff);
+/// @DnDArgument : "color" "$FF99005E"
+draw_set_colour($FF99005E & $ffffff);
+draw_set_alpha(($FF99005E >> 24) / $ff);
 
 /// @DnDAction : YoYo Games.Drawing.Set_Font
 /// @DnDVersion : 1
@@ -19,3 +19,18 @@ draw_set_font(font_in_game);
 /// @DnDArgument : "y" "10"
 if(!variable_instance_exists(id, "__dnd_score")) __dnd_score = 0;
 draw_text(50, 10, string("Score: ") + string(__dnd_score));
+
+/// @DnDAction : YoYo Games.Drawing.Draw_Instance_Lives
+/// @DnDVersion : 1
+/// @DnDHash : 6A63A774
+/// @DnDArgument : "x" "200"
+/// @DnDArgument : "y" "25"
+/// @DnDArgument : "sprite" "sprite_ammo"
+/// @DnDSaveInfo : "sprite" "86bb5312-4c15-4dfc-bc63-034540350359"
+var l6A63A774_0 = sprite_get_width(sprite_ammo);
+var l6A63A774_1 = 0;
+if(!variable_instance_exists(id, "__dnd_lives")) __dnd_lives = 0;
+for(var l6A63A774_2 = __dnd_lives; l6A63A774_2 > 0; --l6A63A774_2) {
+	draw_sprite(sprite_ammo, 0, 200 + l6A63A774_1, 25);
+	l6A63A774_1 += l6A63A774_0;
+}

@@ -1,9 +1,9 @@
 /// @DnDAction : YoYo Games.Drawing.Set_Color
 /// @DnDVersion : 1
 /// @DnDHash : 0037DF32
-/// @DnDArgument : "color" "$FF99005E"
-draw_set_colour($FF99005E & $ffffff);
-draw_set_alpha(($FF99005E >> 24) / $ff);
+/// @DnDArgument : "color" "$FF00FFFF"
+draw_set_colour($FF00FFFF & $ffffff);
+draw_set_alpha(($FF00FFFF >> 24) / $ff);
 
 /// @DnDAction : YoYo Games.Drawing.Set_Font
 /// @DnDVersion : 1

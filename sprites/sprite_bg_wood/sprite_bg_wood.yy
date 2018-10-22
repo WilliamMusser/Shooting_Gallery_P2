@@ -2,7 +2,7 @@
     "id": "8b38702c-9608-40b0-831b-c6b2ce30b66d",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "sprite_bg_woodd",
+    "name": "sprite_bg_wood",
     "For3D": false,
     "HTile": false,
     "VTile": false,

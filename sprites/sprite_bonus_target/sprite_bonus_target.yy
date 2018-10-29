@@ -2,7 +2,7 @@
     "id": "7aa4578a-8da7-418e-95f9-31caceef875f",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "sprite_bonus_round",
+    "name": "sprite_bonus_target",
     "For3D": false,
     "HTile": false,
     "VTile": false,

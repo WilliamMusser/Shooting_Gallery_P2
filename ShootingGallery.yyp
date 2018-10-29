@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "2f4cfc30-3d26-48e2-804e-80878c068395",
+            "Value": {
+                "id": "c53c191a-d172-4673-80df-955586e84271",
+                "resourcePath": "rooms\\room_bonus\\room_bonus.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "328d9c1f-2d81-430c-91e3-7ec74588a95c",
             "Value": {
                 "id": "75832a58-bda6-4a55-9e3f-6565fcc8b326",
@@ -143,6 +151,14 @@
             }
         },
         {
+            "Key": "733cde51-cc0b-4a53-8768-e9ac7d3b5380",
+            "Value": {
+                "id": "3ab88ba3-8303-4753-ab09-bfc988175ea6",
+                "resourcePath": "objects\\object_controller_bonus_room\\object_controller_bonus_room.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "75cf4df3-8fdb-49a5-921a-579f354ebc60",
             "Value": {
                 "id": "aa66d9d0-60ad-4691-8a1d-0279867d1bc6",
@@ -162,7 +178,7 @@
             "Key": "7aa4578a-8da7-418e-95f9-31caceef875f",
             "Value": {
                 "id": "41f5c960-a67b-44e3-9fe8-7ba29a0a4bbd",
-                "resourcePath": "sprites\\sprite_bonus_round\\sprite_bonus_round.yy",
+                "resourcePath": "sprites\\sprite_bonus_target\\sprite_bonus_target.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -346,7 +362,7 @@
             "Key": "ced38bbb-95df-4b37-bfca-9beff0f18bb0",
             "Value": {
                 "id": "f100cd03-aef3-460d-8dd5-fe0595538f3c",
-                "resourcePath": "objects\\object_bonus_round\\object_bonus_round.yy",
+                "resourcePath": "objects\\object_bonus_target\\object_bonus_target.yy",
                 "resourceType": "GMObject"
             }
         },

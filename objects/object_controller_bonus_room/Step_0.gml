@@ -9,15 +9,15 @@ if(__dnd_lives <= 0)
 	/// @DnDVersion : 1
 	/// @DnDHash : 473BA118
 	/// @DnDParent : 6B67932C
-	/// @DnDArgument : "value" "object_controller.__dnd_score"
+	/// @DnDArgument : "value" "object_controller_bonus_room.__dnd_score"
 	/// @DnDArgument : "var" "end_score"
-	global.end_score = object_controller.__dnd_score;
+	global.end_score = object_controller_bonus_room.__dnd_score;
 
 	/// @DnDAction : YoYo Games.Rooms.Go_To_Room
 	/// @DnDVersion : 1
 	/// @DnDHash : 18D1F552
 	/// @DnDParent : 6B67932C
-	/// @DnDArgument : "room" "room_bonus"
-	/// @DnDSaveInfo : "room" "2f4cfc30-3d26-48e2-804e-80878c068395"
-	room_goto(room_bonus);
+	/// @DnDArgument : "room" "room_end"
+	/// @DnDSaveInfo : "room" "68cc6938-3b09-434f-b260-e8b98a759f02"
+	room_goto(room_end);
 }

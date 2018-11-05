@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "09aa7290-08cc-47ec-a984-ed6c03806cff",
+            "Value": {
+                "id": "c7071047-9c0e-4286-95b0-70ea4c713745",
+                "resourcePath": "timelines\\timeline_room_bonus\\timeline_room_bonus.yy",
+                "resourceType": "GMTimeline"
+            }
+        },
+        {
             "Key": "25ece518-2be9-4ca1-8892-9f911f58ee5f",
             "Value": {
                 "id": "d25cd3ed-c16d-4fb1-8e58-4630609d994e",
@@ -60,6 +68,14 @@
                 "id": "75832a58-bda6-4a55-9e3f-6565fcc8b326",
                 "resourcePath": "sprites\\sprite_duck_target\\sprite_duck_target.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "36a96453-049f-43b7-b715-e8ea3f8bed48",
+            "Value": {
+                "id": "105ad49b-bdb8-4a08-87b2-bff32ae1c187",
+                "resourcePath": "objects\\object_target_bonus\\object_target_bonus.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -143,6 +159,14 @@
             }
         },
         {
+            "Key": "6a741293-dcca-412c-868c-ce161b266e85",
+            "Value": {
+                "id": "9fd38fe4-0903-4fa3-8b92-f4a9202c98ba",
+                "resourcePath": "objects\\object_duck_bonus\\object_duck_bonus.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "6f7b4b77-33f8-4f55-b86b-594a7b9fde6a",
             "Value": {
                 "id": "3a0b1170-2ff8-4d6d-9ed0-8f5498e4c517",
@@ -151,10 +175,10 @@
             }
         },
         {
-            "Key": "733cde51-cc0b-4a53-8768-e9ac7d3b5380",
+            "Key": "7133a05f-4a80-46da-8576-9552295da4b9",
             "Value": {
-                "id": "3ab88ba3-8303-4753-ab09-bfc988175ea6",
-                "resourcePath": "objects\\object_controller_bonus_room\\object_controller_bonus_room.yy",
+                "id": "b8e668d4-30a3-4cb2-9bbc-2634c48bc709",
+                "resourcePath": "objects\\object_duck_target_bonus\\object_duck_target_bonus.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -363,6 +387,14 @@
             "Value": {
                 "id": "f100cd03-aef3-460d-8dd5-fe0595538f3c",
                 "resourcePath": "objects\\object_bonus_target\\object_bonus_target.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "d01746ab-1bab-4111-8670-748d4ecb2eb9",
+            "Value": {
+                "id": "455104e2-fce1-44cb-bcff-af6f6bd489b3",
+                "resourcePath": "objects\\object_scoring\\object_scoring.yy",
                 "resourceType": "GMObject"
             }
         },

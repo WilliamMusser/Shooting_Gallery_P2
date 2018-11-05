@@ -1,9 +1,13 @@
 /// @DnDAction : YoYo Games.Instance Variables.If_Lives
 /// @DnDVersion : 1
 /// @DnDHash : 6B67932C
+/// @DnDApplyTo : 93134de0-c28a-4b9f-86da-bf5081400d8e
 /// @DnDArgument : "op" "3"
+with(object_controller) {
 if(!variable_instance_exists(id, "__dnd_lives")) __dnd_lives = 0;
-if(__dnd_lives <= 0)
+var l6B67932C_0 = __dnd_lives <= 0;
+}
+if(l6B67932C_0)
 {
 	/// @DnDAction : YoYo Games.Common.Set_Global
 	/// @DnDVersion : 1

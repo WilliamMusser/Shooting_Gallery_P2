@@ -5,7 +5,7 @@
     "name": "object_duck_target",
     "eventList": [
         {
-            "id": "f62eb3c4-3af8-422a-a716-749db6eb4fb1",
+            "id": "af1a67d7-c933-46b6-946b-b3f768a97301",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": true,

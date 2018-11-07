@@ -9,14 +9,6 @@ var l49242578_0 = __dnd_lives <= 0;
 }
 if(l49242578_0)
 {
-	/// @DnDAction : YoYo Games.Common.Set_Global
-	/// @DnDVersion : 1
-	/// @DnDHash : 1266875D
-	/// @DnDParent : 49242578
-	/// @DnDArgument : "value" "object_controller.__dnd_score"
-	/// @DnDArgument : "var" "end_score"
-	global.end_score = object_controller.__dnd_score;
-
 	/// @DnDAction : YoYo Games.Rooms.Go_To_Room
 	/// @DnDVersion : 1
 	/// @DnDHash : 6CE03419

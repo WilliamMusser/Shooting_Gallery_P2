@@ -1,3 +1,9 @@
+/// @DnDAction : YoYo Games.Common.Execute_Code
+/// @DnDVersion : 1
+/// @DnDHash : 7D14CCB6
+/// @DnDArgument : "code" "draw_text(50,10, scoretotal)"
+draw_text(50,10, scoretotal)
+
 /// @DnDAction : YoYo Games.Drawing.Set_Color
 /// @DnDVersion : 1
 /// @DnDHash : 0037DF32
@@ -11,14 +17,6 @@ draw_set_alpha(($FF00FFFF >> 24) / $ff);
 /// @DnDArgument : "font" "font_in_game"
 /// @DnDSaveInfo : "font" "98bcd82c-d326-4069-943a-a565c9c4bd7f"
 draw_set_font(font_in_game);
-
-/// @DnDAction : YoYo Games.Drawing.Draw_Instance_Score
-/// @DnDVersion : 1
-/// @DnDHash : 21D4D37E
-/// @DnDArgument : "x" "50"
-/// @DnDArgument : "y" "10"
-if(!variable_instance_exists(id, "__dnd_score")) __dnd_score = 0;
-draw_text(50, 10, string("Score: ") + string(__dnd_score));
 
 /// @DnDAction : YoYo Games.Drawing.Draw_Instance_Lives
 /// @DnDVersion : 1

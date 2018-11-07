@@ -14,10 +14,18 @@ draw_set_font(font_in_game);
 
 /// @DnDAction : YoYo Games.Instance Variables.Get_Score
 /// @DnDVersion : 1
-/// @DnDHash : 6BFBCE73
-/// @DnDArgument : "var" "global.end_score"
+/// @DnDHash : 00580D0A
+/// @DnDArgument : "var" "score"
 if(!variable_instance_exists(id, "__dnd_score")) __dnd_score = 0;
-global.end_score = __dnd_score;
+score = __dnd_score;
+
+/// @DnDAction : YoYo Games.Drawing.Draw_Instance_Score
+/// @DnDVersion : 1
+/// @DnDHash : 0A86AE27
+/// @DnDArgument : "x" "50"
+/// @DnDArgument : "y" "10"
+if(!variable_instance_exists(id, "__dnd_score")) __dnd_score = 0;
+draw_text(50, 10, string("Score: ") + string(__dnd_score));
 
 /// @DnDAction : YoYo Games.Drawing.Draw_Instance_Lives
 /// @DnDVersion : 1
